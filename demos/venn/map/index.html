@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>angular-venn</title>
+
+	<!-- Angular core -->
+	<script src="/bower_components/angular/angular.min.js"></script>
+	<script src="/bower_components/jquery/dist/jquery.min.js"></script>
+
+	<!-- Venn specific -->
+	<script src="/bower_components/d3/d3.min.js"></script>
+	<script src="/bower_components/venn.js/venn.min.js"></script>
+
+	<!-- Demo setup -->
+	<script src="app.js"></script>
+
+	<!-- Bootstrap styling -->
+	<link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+	<script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</head>
+<body ng-app="app">
+	<div ng-controller="demoController">
+		<div class="container well">
+			<div venn="vennData" venn-map="getTags"></div>
+		</div>
+
+		<div class="container">
+			<div class="alert alert-info">
+				<p>Simple example of Venn diagrams iterating over a collection to compute the sets.</p>
+
+			</div>
+
+			<form class="form-horizontal">
+				<div ng-repeat="set in vennData" class="form-group">
+					<label class="col-sm-2 control-label">{{set.tags}}</label>
+					<div class="col-sm-10">
+						<input ng-model="set.size" type="number" class="form-control"/>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
