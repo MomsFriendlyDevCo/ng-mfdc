@@ -1,39 +1,4 @@
-var app = angular.module('app', []);
-
-app.directive('venn', function() {
-	return {
-		scope: {
-			venn: '=',
-			vennKey: '=?',
-			vennMap: '&?'
-		},
-		restrict: 'AE',
-		controller: function($scope, $element) {
-			$scope.chartD3 = venn.VennDiagram();
-
-			$scope.$watch('venn', function() {
-				console.log('Venn data change', $scope.venn);
-				var sets = [];
-
-				if (!$scope.venn) {
-					throw new Error('Venn data is invalid');
-				} else if ($scope.vennKey) { // Use key method
-					console.log('FIXME: Unsupported');
-				} else if ($scope.vennMap) { // Use map method
-					console.log('FIXME: Unsupported');
-				} else { // Use plain set method
-					sets = $scope.venn;
-				}
-
-				console.log('SET IS', sets);
-
-				d3.select($element[0]).datum(sets).call($scope.chartD3);
-			}, true);
-		},
-		link: function($scope, elem, attr, ctrl) {
-		}
-	}
-});
+var app = angular.module('app', ['angular-venn']);
 
 app.controller('demoController', function($scope) {
 	$scope.vennData = [

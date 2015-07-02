@@ -11,6 +11,7 @@
 	<!-- Venn specific -->
 	<script src="/bower_components/d3/d3.min.js"></script>
 	<script src="/bower_components/venn.js/venn.min.js"></script>
+	<script src="/bower_components/angular-venn/angular-venn.js"></script>
 
 	<!-- Demo setup -->
 	<script src="app.js"></script>
@@ -21,7 +22,7 @@
 
 </head>
 <body ng-app="app">
-	<div ng-controller="vennDemoController">
+	<div ng-controller="demoController">
 		<div class="container well">
 			<div venn="vennData"></div>
 		</div>
