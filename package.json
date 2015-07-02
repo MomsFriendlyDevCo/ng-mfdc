@@ -1,0 +1,32 @@
+{
+  "name": "ng-mfdc",
+  "version": "1.0.0",
+  "description": "Showcase of the AngularJS modules created by Moms Friendly Development Company",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MomsFriendlyDevCo/ng-mfdc.git"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "author": "Matt Carter <m@ttcarter.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MomsFriendlyDevCo/ng-mfdc/issues"
+  },
+  "homepage": "https://github.com/MomsFriendlyDevCo/ng-mfdc#readme",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-ng-annotate": "^1.0.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-replace": "^0.5.3",
+    "gulp-uglify": "^1.2.0",
+    "gulp-util": "^3.0.6",
+    "gulp-watch": "^4.2.4"
+  }
+}

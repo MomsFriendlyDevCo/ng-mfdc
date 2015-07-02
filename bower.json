@@ -1,0 +1,14 @@
+{
+  "name": "ng-mfdc",
+  "version": "1.0.0",
+  "homepage": "http://momsfriendlydevco.github.io/ng-mfdc",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.4.1",
+    "jquery": "~2.1.4",
+    "fontawesome": "~4.3.0",
+    "bootstrap": "~3.3.5",
+    "lodash": "~3.10.0"
+  }
+}
