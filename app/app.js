@@ -1,4 +1,6 @@
 var app = angular.module('app', [
+	// angular-snippets
+	'Snippets', 'SnippetsThemeBootstrapTabs'
 ]);
 
 app.config(function($compileProvider) {

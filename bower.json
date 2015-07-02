@@ -9,6 +9,7 @@
     "jquery": "~2.1.4",
     "fontawesome": "~4.3.0",
     "bootstrap": "~3.3.5",
-    "lodash": "~3.10.0"
+    "lodash": "~3.10.0",
+    "angular-snippets": "~2.0.0"
   }
 }

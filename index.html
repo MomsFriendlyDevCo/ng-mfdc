@@ -19,19 +19,42 @@
 
 	<!-- FontAwesome -->
 	<link rel="stylesheet" href="/bower_components/fontawesome/css/font-awesome.min.css">
-	
+
 	<!-- Angular core -->
 	<script src="/bower_components/angular/angular.min.js"></script>
+
+	<!-- Angular snippets -->
+	<script src="/bower_components/prism/prism.js"></script>
+	<script src="/bower_components/angular-snippets/dist/angular-snippets.min.js"></script>
+	<link rel="stylesheet" href="/bower_components/angular-snippets/dist/themes/bootstrap-tabs/style.css">
+	<script src="/bower_components/angular-snippets/dist/themes/bootstrap-tabs/theme.min.js"></script>
 
 	<!-- lodash -->
 	<script src="/bower_components/lodash/lodash.min.js"></script>
 
 	<!-- ngCookbook -->
 	<script src="/build/site.min.js"></script>
+	<style>
+	iframe {
+		width: 100%;
+		height: 250px;
+		background: #fff;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+	}
+	</style>
 </head>
 <body ng-app="app">
 	<div class="container">
 		<h1>ng-mfdc</h1>
 		<div class="lead">Showcase of the AngularJS modules created by <a href="http://mfdc.biz">Moms Friendly Development Company</a>.</div>
+	</div>
+
+	<div class="container">
+		<h2>angular-venn</h2>
+		<p>Venn diagrams for AngularJS</p>
+		<snippets path="demos/venn" files="['index.html', 'app.js']">
+			<snippets-pane snippet="{name: 'Demo', selected: true, icon: 'fa fa-cog', cls: 'pull-right'}"><iframe src="demos/venn/index.html"></iframe></snippets-pane>
+		</snippets>
 	</div>
 </body>
