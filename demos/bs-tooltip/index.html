@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>angular-bs-tooltip</title>
+
+	<!-- Angular core -->
+	<script src="../../../bower_components/angular/angular.min.js"></script>
+	<script src="../../../bower_components/jquery/dist/jquery.min.js"></script>
+
+	<!-- Bootstrap styling -->
+	<link href="../../../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+	<script src="../../../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+	<!-- FontAwesome -->
+	<link rel="stylesheet" href="../../../bower_components/fontawesome/css/font-awesome.min.css">
+
+	<!-- Demo setup -->
+	<script src="../../../bower_components/angular-bs-tooltip/angular-bs-tooltip.js"></script>
+	<script src="app.js"></script>
+</head>
+<body ng-app="app">
+	<div ng-controller="demoController">
+		<div class="container">
+			<div class="alert alert-info">
+				<p>Simple example of Bootstrap themed tooltips</p>
+			</div>
+
+			<p class="row text-center">
+				<a tooltip="Positioned above" tooltip-position="top" class="btn btn-default"><i class="fa fa-arrow-up"></i></a>
+				<a tooltip="Positioned below" tooltip-position="bottom" class="btn btn-default"><i class="fa fa-arrow-down"></i></a>
+				<a tooltip="Positioned left" tooltip-position="left" class="btn btn-default"><i class="fa fa-arrow-left"></i></a>
+				<a tooltip="Positioned right" tooltip-position="right" class="btn btn-default"><i class="fa fa-arrow-left"></i></a>
+			</p>
+
+			<p class="text-center">
+				<a tooltip="The time is now {{time}}" class="btn btn-default">Dyanmic tooltips</a>
+			</p>
+		</div>
+	</div>
+</body>

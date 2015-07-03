@@ -1,0 +1,26 @@
+{
+  "name": "angular-bs-tooltip",
+  "authors": [
+    "Matt Carter <m@ttcarter.com>"
+  ],
+  "description": "AngularJS + Bootstrap tooltip support",
+  "main": "angular-bs-tooltip.js",
+  "keywords": [
+    "angular",
+    "bootstrap",
+    "tooltip"
+  ],
+  "license": "MIT",
+  "homepage": "http://momsfriendlydevco.github.io/ng-mfdc",
+  "dependencies": {},
+  "_release": "d74809d75c",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "d74809d75c169bb1ac0a6f2a8cd7070e432a8a36"
+  },
+  "_source": "git://github.com/hash-bang/angular-bs-tooltip.git",
+  "_target": "*",
+  "_originalSource": "angular-bs-tooltip",
+  "_direct": true
+}

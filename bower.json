@@ -11,6 +11,7 @@
     "bootstrap": "~3.3.5",
     "lodash": "~3.10.0",
     "angular-snippets": "~2.0.0",
-    "angular-venn": "*"
+    "angular-venn": "*",
+    "angular-bs-tooltip": "*"
   }
 }
