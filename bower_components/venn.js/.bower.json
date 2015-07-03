@@ -27,6 +27,5 @@
   },
   "_source": "git://github.com/benfred/venn.js.git",
   "_target": "*",
-  "_originalSource": "venn.js",
-  "_direct": true
+  "_originalSource": "venn.js"
 }

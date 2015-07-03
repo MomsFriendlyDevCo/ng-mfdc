@@ -13,11 +13,15 @@
   ],
   "license": "MIT",
   "homepage": "http://momsfriendlydevco.github.io/ng-mfdc",
-  "_release": "dda42d8c3b",
+  "dependencies": {
+    "d3": "~3.5.5",
+    "venn.js": "*"
+  },
+  "_release": "af007a4384",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "dda42d8c3b422f70fbf930b145f219ebd73a198d"
+    "commit": "af007a43847cd047eafd56fd71483a50f75ad84d"
   },
   "_source": "git://github.com/hash-bang/angular-venn.git",
   "_target": "*",
