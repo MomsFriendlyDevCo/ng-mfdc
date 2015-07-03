@@ -84,7 +84,13 @@
 	</style>
 	<script>
 		$(function() {
-			$('body').scrollspy({ target: '#toc' })
+			$('body')
+				.scrollspy({ target: '#toc' })
+				.on('click', '.popout a', function(e) {
+					e.preventDefault();
+					e.stopPropagation();
+					window.open($(this).closest('snippets').attr('path'))
+				});
 		});
 	</script>
 </head>
@@ -116,6 +122,7 @@
 				<snippets path="demos/bs-tooltip" files="['index.html', 'app.js']">
 					<snippets-pane snippet="{name: 'Demo', selected: true, icon: 'fa fa-play', cls: 'pull-right'}"><iframe src="demos/bs-tooltip/index.html"></iframe></snippets-pane>
 					<snippets-pane snippet="{name: 'Installation', icon: 'fa fa-cog', cls: 'pull-right'}"><iframe src="demos/bs-tooltip/install.html"></iframe></snippets-pane>
+					<snippets-pane snippet="{name: '', icon: 'fa fa-arrows-alt', cls: 'pull-right popout'}"><div class="alert alert-info">Content opened in another window</div></snippets-pane>
 				</snippets>
 				<hr/>
 			</div>
@@ -129,6 +136,7 @@
 				<snippets path="demos/venn/sets" files="['index.html', 'app.js']">
 					<snippets-pane snippet="{name: 'Demo', selected: true, icon: 'fa fa-play', cls: 'pull-right'}"><iframe src="demos/venn/sets/index.html"></iframe></snippets-pane>
 					<snippets-pane snippet="{name: 'Installation', icon: 'fa fa-cog', cls: 'pull-right'}"><iframe src="demos/venn/install.html"></iframe></snippets-pane>
+					<snippets-pane snippet="{name: '', icon: 'fa fa-arrows-alt', cls: 'pull-right popout'}"><div class="alert alert-info">Content opened in another window</div></snippets-pane>
 				</snippets>
 				<p>Other examples: <a href="demos/venn/sets">working with pre-calculated sets</a>, <a href="demos/venn/key">collections via a key</a>, <a href="demos/venn/map">collections via a callback</a>.</p>
 			</div>
