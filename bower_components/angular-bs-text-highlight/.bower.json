@@ -1,0 +1,32 @@
+{
+  "name": "angular-bs-text-highlight",
+  "authors": [
+    "Matt Carter <m@ttcarter.com>"
+  ],
+  "description": "AngularJS + Bootstrap text highlighting",
+  "main": "angular-bs-text-highlight.js",
+  "keywords": [
+    "angular",
+    "bootstrap",
+    "text",
+    "highlight",
+    "highlighting"
+  ],
+  "license": "MIT",
+  "homepage": "http://momsfriendlydevco.github.io/ng-mfdc",
+  "dependencies": {
+    "angular": "~1.4.1",
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.5"
+  },
+  "_release": "cae790e4dd",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "cae790e4ddde8102888bb19c5576c9503624d800"
+  },
+  "_source": "git://github.com/hash-bang/angular-bs-text-highlight.git",
+  "_target": "*",
+  "_originalSource": "angular-bs-text-highlight",
+  "_direct": true
+}

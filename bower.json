@@ -12,6 +12,7 @@
     "lodash": "~3.10.0",
     "angular-snippets": "~2.0.0",
     "angular-venn": "*",
-    "angular-bs-tooltip": "*"
+    "angular-bs-tooltip": "*",
+    "angular-bs-text-highlight": "*"
   }
 }
