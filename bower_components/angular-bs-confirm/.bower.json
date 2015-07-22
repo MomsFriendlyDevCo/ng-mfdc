@@ -1,0 +1,30 @@
+{
+  "name": "angular-bs-confirm",
+  "authors": [
+    "Matt Carter <m@ttcarter.com>"
+  ],
+  "description": "AngularJS + Bootstrap tooltip + confirmation support",
+  "main": "angular-bs-confirm.js",
+  "keywords": [
+    "angular",
+    "bootstrap",
+    "confirm",
+    "prompt"
+  ],
+  "license": "MIT",
+  "homepage": "http://momsfriendlydevco.github.io/ng-mfdc",
+  "dependencies": {
+    "angular": "~1.4.1",
+    "bootstrap": "~3.3.5"
+  },
+  "_release": "0cde4a8096",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "0cde4a8096e3432e30ad57b0ae8f67adcbeea16b"
+  },
+  "_source": "git://github.com/hash-bang/angular-bs-confirm.git",
+  "_target": "*",
+  "_originalSource": "angular-bs-confirm",
+  "_direct": true
+}

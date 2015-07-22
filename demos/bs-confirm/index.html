@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>angular-bs-confirm</title>
+
+	<!-- Angular core -->
+	<script src="../../bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="../../bower_components/angular/angular.min.js"></script>
+
+	<!-- Bootstrap styling -->
+	<link href="../../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+	<script src="../../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+	<!-- FontAwesome -->
+	<link rel="stylesheet" href="../../bower_components/fontawesome/css/font-awesome.min.css">
+
+	<!-- Demo setup -->
+	<script src="../../bower_components/angular-bs-confirm/angular-bs-confirm.js"></script>
+	<script src="app.js"></script>
+</head>
+<body ng-app="app">
+	<div ng-controller="demoController">
+		<div class="container">
+			<div class="alert alert-info">
+				<p>Simple example of Bootstrap themed tooltip confirms</p>
+			</div>
+
+			<p class="row text-center">
+				<a confirm="doThing()" class="btn btn-danger">Do something potencially dangerous</a>
+			</p>
+
+			<p class="row text-center">
+				<a confirm="doThing()" cancel="doNotDoThing()" confirm-position="right" class="btn btn-default">Cancel callback handling</a>
+			</p>
+
+			<p class="text-center">
+				<a confirm="doThing()" cancel="doNotDoThing()" confirm-text="The time is now {{time}}" class="btn btn-default">Dynamic confirms</a>
+			</p>
+		</div>
+	</div>
+</body>

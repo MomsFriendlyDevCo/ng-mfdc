@@ -14,6 +14,7 @@
     "angular-venn": "*",
     "angular-bs-tooltip": "*",
     "angular-bs-text-highlight": "*",
-    "angular-bs-popover": "*"
+    "angular-bs-popover": "*",
+    "angular-bs-confirm": "*"
   }
 }
