@@ -13,6 +13,7 @@
     "angular-snippets": "~2.0.0",
     "angular-venn": "*",
     "angular-bs-tooltip": "*",
-    "angular-bs-text-highlight": "*"
+    "angular-bs-text-highlight": "*",
+    "angular-bs-popover": "*"
   }
 }

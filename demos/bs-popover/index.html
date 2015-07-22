@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>angular-bs-popover</title>
+
+	<!-- Angular core -->
+	<script src="../../bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="../../bower_components/angular/angular.min.js"></script>
+
+	<!-- Bootstrap styling -->
+	<link href="../../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+	<script src="../../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+	<!-- FontAwesome -->
+	<link rel="stylesheet" href="../../bower_components/fontawesome/css/font-awesome.min.css">
+
+	<!-- Demo setup -->
+	<script src="../../bower_components/angular-bs-popover/angular-bs-popover.js"></script>
+	<script src="app.js"></script>
+</head>
+<body ng-app="app">
+	<div ng-controller="demoController">
+		<div class="container">
+			<div class="alert alert-info">
+				<p>Simple example of Bootstrap themed popovers</p>
+			</div>
+
+			<p class="row text-center">
+				<a popover="Positioned above" popover-title="A nice title" popover-position="top" class="btn btn-default"><i class="fa fa-arrow-up"></i></a>
+				<a popover="Positioned below" popover-title="A nice title" popover-position="bottom" class="btn btn-default"><i class="fa fa-arrow-down"></i></a>
+				<a popover="Positioned left" popover-title="A nice title" popover-position="left" class="btn btn-default"><i class="fa fa-arrow-left"></i></a>
+				<a popover="Positioned right" popover-title="A nice title" popover-position="right" class="btn btn-default"><i class="fa fa-arrow-left"></i></a>
+			</p>
+
+			<p class="text-center">
+				<a popover="The time is now {{time}}" popover-title="A nice title" class="btn btn-default">Dyanmic popovers</a>
+			</p>
+		</div>
+	</div>
+</body>
