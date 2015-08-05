@@ -15,6 +15,7 @@
     "angular-bs-tooltip": "*",
     "angular-bs-text-highlight": "*",
     "angular-bs-popover": "*",
-    "angular-bs-confirm": "*"
+    "angular-bs-confirm": "*",
+    "angular-d3-hierarchy": "*"
   }
 }

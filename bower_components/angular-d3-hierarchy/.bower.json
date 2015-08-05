@@ -1,0 +1,31 @@
+{
+  "name": "angular-d3-hierarchy",
+  "authors": [
+    "Matt Carter <m@ttcarter.com>"
+  ],
+  "description": "D3 hierarchical diagrams for AngularJS",
+  "main": "angular-d3-hierarchy.js",
+  "keywords": [
+    "angular",
+    "d3",
+    "diagram",
+    "graph",
+    "tree",
+    "hierarchy"
+  ],
+  "license": "MIT",
+  "homepage": "FIXME",
+  "dependencies": {
+    "d3.chart.layout.hierarchy": "~0.3.4"
+  },
+  "_release": "c5ae4b7650",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "c5ae4b76502007589fa5dd89977099678271e5dc"
+  },
+  "_source": "git://github.com/hash-bang/angular-d3-hierarchy.git",
+  "_target": "*",
+  "_originalSource": "angular-d3-hierarchy",
+  "_direct": true
+}
