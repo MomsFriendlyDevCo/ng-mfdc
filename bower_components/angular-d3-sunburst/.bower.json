@@ -1,0 +1,31 @@
+{
+  "name": "angular-d3-sunburst",
+  "authors": [
+    "Matt Carter <m@ttcarter.com>"
+  ],
+  "description": "D3 Sunburst diagrams for AngularJS",
+  "main": "angular-d3-sunburst.js",
+  "keywords": [
+    "angular",
+    "d3",
+    "diagram",
+    "graph",
+    "tree",
+    "sunburst"
+  ],
+  "license": "MIT",
+  "homepage": "http://momsfriendlydevco.github.io/ng-mfdc",
+  "dependencies": {
+    "d3": "*"
+  },
+  "_release": "3b9064285f",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "3b9064285fcaf7a68a8d80d3de11a15da64d764d"
+  },
+  "_source": "git://github.com/hash-bang/angular-d3-sunburst.git",
+  "_target": "*",
+  "_originalSource": "angular-d3-sunburst",
+  "_direct": true
+}

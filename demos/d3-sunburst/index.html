@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>angular-d3-sunburst</title>
+
+	<!-- Angular core -->
+	<script src="../../bower_components/angular/angular.min.js"></script>
+	<script src="../../bower_components/jquery/dist/jquery.min.js"></script>
+
+	<!-- Venn specific -->
+	<script src="../../bower_components/d3/d3.min.js"></script>
+	<script src="../..//bower_components/d3.chart/d3.chart.min.js"></script>
+	<script src="../../bower_components/angular-d3-sunburst/angular-d3-sunburst.js"></script>
+	<link href="../../bower_components/angular-d3-sunburst/angular-d3-sunburst.css" rel="stylesheet" type="text/css"/>
+
+	<!-- Bootstrap styling -->
+	<link href="../../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+
+	<!-- Demo setup -->
+	<script src="app.js"></script>
+</head>
+<body ng-app="app">
+	<div ng-controller="demoController">
+		<div class="container well">
+			<div sunburst="chart" tooltip="tooltipFunc"></div>
+		</div>
+	</div>
+</body>
+</html>

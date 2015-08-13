@@ -16,6 +16,7 @@
     "angular-bs-text-highlight": "*",
     "angular-bs-popover": "*",
     "angular-bs-confirm": "*",
-    "angular-d3-hierarchy": "*"
+    "angular-d3-hierarchy": "*",
+    "angular-d3-sunburst": "*"
   }
 }
