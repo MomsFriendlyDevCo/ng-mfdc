@@ -17,13 +17,13 @@
     "angular": "~1.4.1",
     "bootstrap": "~3.3.5"
   },
-  "_release": "0cde4a8096",
+  "_release": "730b6187e5",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "0cde4a8096e3432e30ad57b0ae8f67adcbeea16b"
+    "commit": "730b6187e567b710c90ba7168c329808c3da7d57"
   },
-  "_source": "git://github.com/hash-bang/angular-bs-confirm.git",
+  "_source": "https://github.com/hash-bang/angular-bs-confirm.git",
   "_target": "*",
   "_originalSource": "angular-bs-confirm",
   "_direct": true
